@@ -1,0 +1,10 @@
+/* filepath: /d:/Study/Cars93/cars93/src/Modules/Header/header.css */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+  }
+  
+  .quick-search {
+    margin-left: auto;
+  }

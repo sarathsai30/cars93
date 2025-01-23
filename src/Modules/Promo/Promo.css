@@ -1,0 +1,22 @@
+/* filepath: /d:/Study/Cars93/cars93/src/Modules/Promo/Promo.css */
+.promo-container {
+  position: relative;
+  background-image: url('D:\Study\Cars93\cars93\public\promocar.jpg'); /* Replace with the path to your image */
+  background-size: cover;
+  background-position: center;
+  height: 400px; /* Adjust the height as needed */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.promo-container .search-form {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+}
