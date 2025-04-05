@@ -1,0 +1,22 @@
+.custom-navbar {
+    background-color: white; /* Set background color to white */
+    border: 1px solid #d6d8db;
+    color: black; /* Set text color to black */
+  }
+  
+  .navbar-nav .nav-link {
+    color: black; /* Set navbar link text color to black */
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #465166; /* Change link color on hover */
+  }
+  
+  .navbar-toggler {
+    border-color: hsl(36, 94%, 46%); /* Set toggler border color */
+  }
+  
+  .navbar-toggler-icon {
+    background-color: hsl(36, 94%, 46%); /* Set toggler icon color */
+  }

@@ -1,5 +1,6 @@
-// filepath: /d:/Study/Cars93/cars93/src/Modules/NavBar/NavBar.jsx
 import React from "react";
+import "./NavBar.css";
+
 
 const NavBar = () => {
   const handleScrollToSection = (event, sectionId) => {
@@ -11,8 +12,8 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-primary border border-warning">
-      <div className="container">
+    <nav className="navbar navbar-expand-lg navbar-light custom-navbar">
+      <div className="container-fluid">
         <button
           className="navbar-toggler"
           type="button"
@@ -25,21 +26,39 @@ const NavBar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav me-auto">
+          <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link ms-4 link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="/home">Home</a>
+              <a className="nav-link ms-4" href="/home">
+                Home
+              </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link ms-4 link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="/new-cars">New Cars</a>
+              <a className="nav-link ms-4" href="/new-cars">
+                New Cars
+              </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link ms-4 link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="/reviews">Reviews</a>
+              <a className="nav-link ms-4" href="/reviews">
+                Reviews
+              </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link ms-4 link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="#videos" onClick={(e) => handleScrollToSection(e, 'videos')}>Videos</a>
+              <a
+                className="nav-link ms-4"
+                href="#videos"
+                onClick={(e) => handleScrollToSection(e, "videos")}
+              >
+                Videos
+              </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link ms-4 link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="#about-us" onClick={(e) => handleScrollToSection(e, 'about-us')}>About Us</a>
+              <a
+                className="nav-link ms-4"
+                href="#about-us"
+                onClick={(e) => handleScrollToSection(e, "about-us")}
+              >
+                About Us
+              </a>
             </li>
           </ul>
         </div>

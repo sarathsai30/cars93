@@ -1,0 +1,59 @@
+/* filepath: /d:/Study/Cars93/cars93/src/Modules/TopSellingCars/TopSellingCars.css */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .container {
+    max-width: 900px; /* Adjust the width as needed */
+  }
+  
+  .car-list {
+    overflow-x: hidden;
+    white-space: nowrap;
+  }
+  
+  .car-list .row {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .car-list .col-md-4 {
+    flex: 0 0 auto;
+    width: 300px; /* Adjust the width as needed */
+  }
+  
+  .scroll-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .scroll-button.left {
+    left: 0;
+  }
+  
+  .scroll-button.right {
+    right: 0;
+  }
+  
+  .scroll-button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+  }

@@ -14,9 +14,9 @@ const Header = () => {
         >
           <img
             className="border border-warning"
-            src="Cars93_New.png"
+            src="Logo.jpg"
             alt="Cars93"
-            style={{ height: '60px', width: '60px', borderRadius: '50%' }}
+            style={{ height: '70px', width: '70px', borderRadius: '50%' }}
           />
         </a>
         <div className="quick-search ms-auto">

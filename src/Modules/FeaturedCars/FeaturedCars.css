@@ -1,0 +1,86 @@
+/* filepath: /d:/Study/Cars93/cars93/src/Modules/FeaturedCars/FeaturedCars.css */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .nav-tabs .nav-link {
+    cursor: pointer;
+    color: #555;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .nav-tabs .nav-link.active {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .nav-tabs .nav-link:hover {
+    color: #007bff;
+    background-color: #e9ecef;
+  }
+  
+  .container {
+    max-width: 900px; /* Adjust the width as needed */
+  }
+  
+  .car-list {
+    overflow-x: hidden;
+    white-space: nowrap;
+  }
+  
+  .car-list .row {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .car-list .col-md-4 {
+    flex: 0 0 auto;
+    width: 300px; /* Adjust the width as needed */
+  }
+  
+  .scroll-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .scroll-button.left {
+    left: 0;
+  }
+  
+  .scroll-button.right {
+    right: 0;
+  }
+  
+  .scroll-button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+.card-text {
+  white-space: normal; /* Allow text to wrap */
+  overflow: hidden; /* Hide any overflowing text */
+  text-overflow: ellipsis; /* Add ellipsis for overflowing text (optional) */
+}
