@@ -1,6 +1,7 @@
 // filepath: /d:/Study/Cars93/cars93/src/Modules/Search/Search.jsx
 import React, { useState } from "react";
 import { Select, MenuItem, InputLabel, FormControl } from "@mui/material";
+import searchData from "../../Data/searchData.json"
 
 const Search = () => {
   const [brand, setBrand] = useState("");
@@ -19,6 +20,10 @@ const Search = () => {
     setBudget(event.target.value);
   };
 
+  const handleSearch=()=>{
+    
+  }
+
   return (
     <div className="search-form p-3 bg-light border rounded" style={{ width: '300px', margin: '0 auto' }}>
       <form>
@@ -32,13 +37,11 @@ const Search = () => {
               label="Car Type"
               onChange={handleCarTypeChange}
             >
-              <MenuItem value="Sedan">Sedan</MenuItem>
-              <MenuItem value="SUV">SUV</MenuItem>
-              <MenuItem value="Hatchback">Hatchback</MenuItem>
-              <MenuItem value="Convertible">Convertible</MenuItem>
-              <MenuItem value="Coupe">Coupe</MenuItem>
-              <MenuItem value="Wagon">Wagon</MenuItem>
-              <MenuItem value="Van">Van</MenuItem>
+               {searchData.carTypes.map((type, index) => (
+                <MenuItem key={index} value={type}>
+                  {type}
+                </MenuItem>
+              ))}
             </Select>
           </FormControl>
         </div>
@@ -52,9 +55,11 @@ const Search = () => {
               label="Budget"
               onChange={handleBudgetChange}
             >
-              <MenuItem value="1-5 lakhs">1-5 lakhs</MenuItem>
-              <MenuItem value="5-10 lakhs">5-10 lakhs</MenuItem>
-              <MenuItem value="above 10 lakhs">Above 10 lakhs</MenuItem>
+             {searchData.priceRange.map((range, index) => (
+                <MenuItem key={index} value={range}>
+                  {range}
+                </MenuItem>
+              ))}
             </Select>
           </FormControl>
         </div>
@@ -68,18 +73,15 @@ const Search = () => {
               label="Brand"
               onChange={handleBrandChange}
             >
-              <MenuItem value="Maruti Suzuki">Maruti Suzuki</MenuItem>
-              <MenuItem value="Hyundai">Hyundai</MenuItem>
-              <MenuItem value="Tata">Tata</MenuItem>
-              <MenuItem value="Mahindra">Mahindra</MenuItem>
-              <MenuItem value="Honda">Honda</MenuItem>
-              <MenuItem value="Toyota">Toyota</MenuItem>
-              <MenuItem value="Ford">Ford</MenuItem>
-              <MenuItem value="Volkswagen">Volkswagen</MenuItem>
+              {searchData.brands.map((brand, index) => (
+                <MenuItem key={index} value={brand}>
+                  {brand}
+                </MenuItem>
+              ))}
             </Select>
           </FormControl>
         </div>
-        <button type="submit" className="btn btn-primary">Search</button>
+        <button type="submit" onClick={handleSearch} className="btn btn-primary">Search</button>
       </form>
     </div>
   );

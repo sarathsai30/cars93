@@ -1,8 +1,9 @@
 /* filepath: /d:/Study/Cars93/cars93/src/Modules/AboutUs/AboutUs.css */
 .about-us-section {
-  background-color: #465166; /* Set background color */
+  background-color: rgb(219, 111, 111) !important; /* Set background color */
   color: white; /* Set text color */
   padding: 50px 0; /* Add padding for spacing */
+  height: 220px;
 }
 
 .about-us-title {

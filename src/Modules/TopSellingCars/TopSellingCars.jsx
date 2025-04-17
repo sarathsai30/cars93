@@ -26,6 +26,26 @@ const TopSellingCars = () => {
       description: "A premium MPV with advanced features and comfort.",
       image: "topcars.jpg" // Replace with actual image path
     },
+    {
+      name: "Kia Sonet",
+      description: "A compact SUV with modern design and features.",
+      image: "topcars.jpg" // Replace with actual image path
+    },
+    {
+      name: "Toyota Innova",
+      description: "A premium MPV with advanced features and comfort.",
+      image: "topcars.jpg" // Replace with actual image path
+    },
+    {
+      name: "Kia Sonet",
+      description: "A compact SUV with modern design and features.",
+      image: "topcars.jpg" // Replace with actual image path
+    },
+    {
+      name: "Toyota Innova",
+      description: "A premium MPV with advanced features and comfort.",
+      image: "topcars.jpg" // Replace with actual image path
+    },
   ];
 
   const scrollLeft = () => {
@@ -38,7 +58,7 @@ const TopSellingCars = () => {
 
   return (
     <section id="top-selling-cars" className="mt-5">
-      <div className="container">
+      <div className="container-fluid">
         <h2 className="text-left mb-4">Top Selling Cars</h2>
         <div className="position-relative">
           <button className="scroll-button left" onClick={scrollLeft}>

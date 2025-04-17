@@ -1,13 +1,12 @@
-// filepath: /d:/Study/Cars93/cars93/src/Modules/FeaturedCars/FeaturedCars.jsx
+// filepath: d:\Study\Cars93\cars93\src\Modules\FeaturedCars\FeaturedCars.jsx
 import React, { useState, useRef } from "react";
-import cars from "./featuredcars.json"
+import allCarsData from "../../Data/data.json"; // Import the allCars JSON file
 import "./FeaturedCars.css"; // Import the CSS file for styling
 
 const FeaturedCars = () => {
-  const [selectedCategory, setSelectedCategory] = useState("Trending");
+  const [selectedCategory, setSelectedCategory] = useState("trending");
   const carListRef = useRef(null);
 
- 
   const scrollLeft = () => {
     carListRef.current.scrollBy({ left: -300, behavior: "smooth" });
   };
@@ -16,12 +15,26 @@ const FeaturedCars = () => {
     carListRef.current.scrollBy({ left: 300, behavior: "smooth" });
   };
 
+  // Extract categories dynamically from allCars, ignoring undefined categories
+  const categories = [
+    ...new Set(
+      allCarsData.AllCars
+        .filter((car) => car.category) // Filter out cars with undefined categories
+        .map((car) => car.category)
+    )
+  ];
+
+  // Filter cars based on the selected category
+  const filteredCars = allCarsData.AllCars.filter(
+    (car) => car.category === selectedCategory
+  );
+
   return (
     <section id="featured-cars" className="mt-5">
       <div className="container-fluid">
         <h2 className="text-left mb-4">Featured Cars</h2>
         <ul className="nav nav-tabs mb-4">
-          {Object.keys(cars).map((category) => (
+          {categories.map((category) => (
             <li className="nav-item" key={category}>
               <a
                 className={`nav-link ${selectedCategory === category ? "active" : ""}`}
@@ -31,7 +44,7 @@ const FeaturedCars = () => {
                   setSelectedCategory(category);
                 }}
               >
-                {category}
+                {category.charAt(0).toUpperCase() + category.slice(1)}
               </a>
             </li>
           ))}
@@ -42,8 +55,8 @@ const FeaturedCars = () => {
           </button>
           <div className="car-list" ref={carListRef}>
             <div className="row flex-nowrap">
-              {cars[selectedCategory].map((car, index) => (
-                <div className="col-md-4 mb-4" key={index}>
+              {filteredCars.map((car) => (
+                <div className="col-md-4 mb-4" key={car.id}>
                   <div className="card h-100">
                     <img src={car.image} className="card-img-top" alt={car.name} />
                     <div className="card-body">

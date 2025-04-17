@@ -1,7 +1,9 @@
 /* filepath: /d:/Study/Cars93/cars93/src/Modules/FeaturedCars/FeaturedCars.css */
 .card-img-top {
-    height: 200px;
+    height: 250px !important;
     object-fit: cover;
+    transform: scale(1); /* Apply zoom-out effect by default */
+    transition: transform 0.3s ease; /* Smooth transition for any future changes */
   }
   
   .card {
@@ -14,10 +16,14 @@
   .card:hover {
     transform: scale(1.05);
   }
+
+  .card-img-top:hover {
+    transform: scale(0.9); /* Zoom out the image */
+  }
   
   .nav-tabs .nav-link {
     cursor: pointer;
-    color: #555;
+    color: indianred !important;
     background-color: #f8f9fa;
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -59,7 +65,7 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: indianred !important;
     color: white;
     border: none;
     padding: 10px;

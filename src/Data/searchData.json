@@ -1,0 +1,19 @@
+{
+    "brands":[
+     "Maruti Suzuki", "Hyundai", "Tata Motors", "Toyota", "Mahindra", "Honda", "Skoda", "Kia", "MG Motors", "Nissan", "Volkswagen", "Renault", "Jeep", "Citroen", "BMW", "Mercedes Benz","Audi", "Volvo", "Jaguar", "Rolls Royce", "Lexus", "Land Rover", "Range Rover", "Porsche", "Mini", "Bentley", "Ferrari", "Lamborghini", "Aston Martin", "Maserati"
+   ],
+   
+    "carTypes":[
+     "Hatchback", "SUV", "Sedan", "Coupe", "MUV", "Convertible", "Pickup Truck", "Van", "wagon"
+   ],
+    "priceRange":[
+     "Below 5Lakhs",
+     "5-10Lakhs",
+     "10-20Lakhs",
+     "20-30Lakhs",
+     "30-40Lakhs",
+     "40-60Lakhs",
+     "60Lakhs-1Crore",
+     "1crore above"
+   ]
+}
