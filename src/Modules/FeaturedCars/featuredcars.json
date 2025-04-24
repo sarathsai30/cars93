@@ -1,0 +1,58 @@
++{
+    "Trending": [
+      {
+        "name": "Maruti Suzuki Swift",
+        "description": "A compact car with great fuel efficiency and performance.",
+        "image": "promocar.jpg"
+      },
+      {
+        "name": "Hyundai Creta",
+        "description": "A stylish SUV with advanced features and comfort.",
+        "image": "promocar.jpg"
+      },
+      {
+        "name": "Kia Seltos",
+        "description": "A compact SUV with modern design and features.",
+        "image": "promocar.jpg"
+      },
+      {
+        "name": "Ford EcoSport",
+        "description": "A compact SUV with sporty design and performance.",
+        "image": "promocar.jpg"
+      },
+      {
+        "name": "Kia Seltos",
+        "description": "A compact SUV with modern design and features.",
+        "image": "promocar.jpg"
+      },
+      {
+        "name": "Ford EcoSport",
+        "description": "A compact SUV with sporty design and performance.",
+        "image": "promocar.jpg"
+      }
+    ],
+    "Popular": [
+      {
+        "name": "Tata Nexon",
+        "description": "A compact SUV with robust design and safety features.",
+        "image": "promocar.jpg"
+      },
+      {
+        "name": "Honda City",
+        "description": "A premium sedan with advanced features and comfort.",
+        "image": "promocar.jpg"
+      }
+    ],
+    "Upcoming": [
+      {
+        "name": "Mahindra XUV700",
+        "description": "An upcoming SUV with advanced features and design.",
+        "image": "promocar.jpg"
+      },
+      {
+        "name": "Toyota Fortuner",
+        "description": "An upcoming SUV with robust design and performance.",
+        "image": "promocar.jpg"
+      }
+    ]
+  }

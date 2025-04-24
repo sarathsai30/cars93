@@ -1,7 +1,7 @@
 /* filepath: /d:/Study/Cars93/cars93/src/Modules/Promo/Promo.css */
 .promo-container {
   position: relative;
-  background-image: url('D:\Study\Cars93\cars93\public\promocar.jpg'); /* Replace with the path to your image */
+  background-image: url('/public/promocar.jpg'); /* Replace with the path to your image */
   background-size: cover;
   background-position: center;
   height: 400px; /* Adjust the height as needed */

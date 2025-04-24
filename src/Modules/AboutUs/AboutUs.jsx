@@ -8,7 +8,12 @@ const AboutUs = () => {
       <div className="container">
         <h2 className="about-us-title">About Us</h2>
         <p className="about-us-text">
-          Welcome to 93Cars! We are dedicated to providing you with the latest information on new cars, reviews, and videos. Our mission is to help you make informed decisions when it comes to purchasing your next vehicle. Thank you for visiting our website!
+          93Cars is your trusted source for the latest informationon on new cars in the indian market.
+          From detailed specifications and features to prices, variants, and expert comparisons,
+          we bring everything you need to known-all in one place.
+          whether you're exploring the latest launches or comparing models,
+          93Cars helps you make informed decisions with confidence.
+          Thanks for visiting our website.
         </p>
       </div>
     </section>
