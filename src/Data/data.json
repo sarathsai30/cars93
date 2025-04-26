@@ -10,7 +10,8 @@
       "features": ["ABS with EBD", "Touchscreen infotainment", "Dual airbags"],
       "launchYear": 2023,
       "category": "trending",
-      "carType": "Hatchback"
+      "carType": "Hatchback",
+      "priceRange": "₹6.49 - ₹9.64 Lakh*"
     },
     {
       "id": "2",
@@ -21,7 +22,8 @@
       "engineSpecifications": "1.5L MPi / 1.5L CRDi",
       "launchYear": 2024,
       "category": "trending",
-      "carType": "SUV"
+      "carType": "SUV",
+      "priceRange": "₹11.11 - ₹20.50 Lakh*"
     },
     {
       "id": "3",
@@ -33,7 +35,8 @@
       "features": ["5-star safety", "Traction Pro mode", "Touchscreen display"],
       "launchYear": 2022,
       "category": "trending",
-      "carType": "SUV"
+      "carType": "SUV",
+      "priceRange": "₹6 - ₹10.32 Lakh*"
     },
     {
       "id": "4",
@@ -45,7 +48,8 @@
       "features": ["4x4 drivetrain", "Touch infotainment", "Convertible top"],
       "launchYear": 2023,
       "category": "trending",
-      "carType": "SUV"
+      "carType": "SUV",
+      "priceRange": "₹12.99 - ₹23.09 Lakh**"
     },
     {
       "id": "5",
@@ -56,7 +60,8 @@
       "engineSpecifications": "1.5L NA / 1.5L Turbo / 1.5L Diesel",
       "features": ["ADAS", "360° camera", "Ventilated seats"],
       "launchYear": 2023,
-      "carType": "SUV"
+      "carType": "SUV",
+      "priceRange": "₹11.19 - ₹20.51 Lakh*"
     },
     {
       "id": "6",
@@ -67,7 +72,8 @@
       "engineSpecifications": "2.8L Turbo Diesel",
       "features": ["4WD modes", "Hill assist", "LED projector lamps"],
       "launchYear": 2022,
-      "carType": "SUV"
+      "carType": "SUV",
+      "priceRange": "₹35.37 - ₹51.94 Lakh*"
     },
     {
       "id": "7",
@@ -78,7 +84,8 @@
       "engineSpecifications": "1.5L MPi / 1.5L Turbo",
       "features": ["ADAS", "Dual screen setup", "Premium audio"],
       "launchYear": 2023,
-      "carType": "Sedan"
+      "carType": "Sedan",
+      "priceRange": "₹11.07 - ₹17.55 Lakh*"
     },
     {
       "id": "8",
@@ -89,7 +96,8 @@
       "engineSpecifications": "2.0L Kryotec Diesel",
       "features": ["Panoramic sunroof", "ADAS", "Terrain response system"],
       "launchYear": 2023,
-      "carType": "SUV"
+      "carType": "SUV",
+      "priceRange": "₹15.49 - ₹26.19 Lakh*"
     },
     {
       "id": "9",
@@ -100,7 +108,8 @@
       "engineSpecifications": "1.2L DualJet Dual VVT",
       "features": ["360° camera", "HUD", "Alexa voice support"],
       "launchYear": 2022,
-      "carType": "Hatchback"
+      "carType": "Hatchback",
+      "priceRange": "₹6.70 - ₹9.92 Lakh*"
     },
     {
       "id": "10",
@@ -111,7 +120,8 @@
       "engineSpecifications": "1.0L NA / 1.0L Turbo",
       "features": ["Digital cluster", "Multi-sense drive modes", "LED DRLs"],
       "launchYear": 2023,
-      "carType": "SUV"
+      "carType": "SUV",
+      "priceRange": "₹6.50 - ₹11.25 Lakh*"
     },
     {
       "id": "11",
@@ -123,7 +133,8 @@
       "features": ["ADAS", "Digital cluster", "Wireless Android Auto"],
       "launchYear": 2023,
       "category": "popular",
-      "carType": "SUV"
+      "carType": "SUV",
+      "priceRange": "₹8 - ₹15.60 Lakh*"
     },
     {
       "id": "12",
@@ -135,7 +146,8 @@
       "features": ["6 airbags", "Sunroof", "Connected car tech"],
       "launchYear": 2023,
       "category": "popular",
-      "carType": "SUV"
+      "carType": "SUV",
+      "priceRange": "₹8.69 - ₹14.14 Lakh*"
     },
     {
       "id": "13",
@@ -147,7 +159,8 @@
       "features": ["Bose audio", "Sunroof", "Cruise control"],
       "launchYear": 2023,
       "category": "popular",
-      "carType": "Hatchback"
+      "carType": "Hatchback",
+      "priceRange": "₹7.04 - ₹11.25 Lakh*"
     },
     {
       "id": "14",
@@ -159,7 +172,8 @@
       "features": ["Roof AC vents", "ADAS", "360° camera"],
       "launchYear": 2022,
       "category": "popular",
-      "carType": "MUV"
+      "carType": "MUV",
+      "priceRange": "₹10.60 - ₹19.70 Lakh*" 
     },
     {
       "id": "15",
@@ -171,7 +185,8 @@
       "features": ["ADAS", "Panoramic roof", "Sony 3D sound"],
       "launchYear": 2023,
       "category": "popular",
-      "carType": "SUV"
+      "carType": "SUV",
+      "priceRange": "₹13.99 - ₹25.74 Lakh**"
     },
     {
       "id": "16",
@@ -183,7 +198,8 @@
       "features": ["ADAS", "LaneWatch", "Sunroof"],
       "launchYear": 2023,
       "category": "popular",
-      "carType": "Sedan"
+      "carType": "Sedan",
+      "priceRange": "₹12.28 - ₹16.55 Lakh*"
     },
     {
       "id": "17",
@@ -195,7 +211,8 @@
       "features": ["Captain seats", "Touchscreen infotainment", "Cruise control"],
       "launchYear": 2022,
       "category": "popular",
-      "carType": "MUV"
+      "carType": "MUV",
+      "priceRange": "₹19.99 - ₹26.82 Lakh*"
     },
     {
       "id": "18",
@@ -207,7 +224,8 @@
       "features": ["14-inch infotainment", "ADAS", "360° camera"],
       "launchYear": 2023,
       "category": "popular",
-      "carType": "SUV"
+      "carType": "SUV",
+      "priceRange": "₹14.73 - ₹22.43 Lakh*"
     },
     {
       "id": "19",
@@ -219,7 +237,8 @@
       "features": ["Ventilated seats", "Digital cockpit", "Cruise control"],
       "launchYear": 2023,
       "category": "popular",
-      "carType": "Sedan"
+      "carType": "Sedan",
+      "priceRange": "₹11.56 - ₹19.40 Lakh*"
     },
     {
       "id": "20",
@@ -231,7 +250,8 @@
       "features": ["Sunroof", "Ventilated seats", "Touch infotainment"],
       "launchYear": 2023,
       "category": "popular",
-      "carType": "Sedan"
+      "carType": "Sedan",
+      "priceRange": "₹10.34 - ₹18.24 Lakh*"
     },
     {
       "id": "21",
@@ -243,7 +263,8 @@
       "features": ["Connected Car Tech", "Panoramic Sunroof", "ADAS"],
       "launchYear": 2025,
       "category": "upcoming",
-      "carType": "SUV"
+      "carType": "SUV",
+      "priceRange": "₹20 - ₹25 Lakh*"
     },
     {
       "id": "22",
@@ -255,7 +276,8 @@
       "features": ["LED DRLs", "Wireless Charging", "ADAS Level 2"],
       "launchYear": 2025,
       "category": "upcoming",
-      "carType": "SUV"
+      "carType": "SUV",
+      "priceRange": "₹17.99 - ₹24.38 Lakh*"
     },
     {
       "id": "23",
@@ -267,7 +289,8 @@
       "features": ["Digital Instrument Cluster", "Ventilated Seats", "360° Camera"],
       "launchYear": 2025,
       "category": "trending",
-      "carType": "SUV"
+      "carType": "SUV",
+      "priceRange": "₹10 - ₹19.52 Lakh*"
     },
     {
       "id": "24",
@@ -279,7 +302,8 @@
       "features": ["Futuristic Cabin", "Augmented Reality HUD", "Autonomous Drive Tech"],
       "launchYear": 2025,
       "category": "upcoming",
-      "carType": "SUV"
+      "carType": "SUV",
+      "priceRange": "₹15 - ₹25 Lakh*"
     },
     {
       "id": "25",
@@ -291,7 +315,8 @@
       "features": ["Digital Touch Controls", "Toyota Safety Sense", "360-Degree Camera"],
       "launchYear": "2025",
       "category": "upcoming",
-      "carType": "SUV"
+      "carType": "SUV",
+      "priceRange": "₹20 - ₹25 Lakh*"
     }
   ]
 }

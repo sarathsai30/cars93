@@ -62,6 +62,7 @@ const FeaturedCars = () => {
                     <div className="card-body">
                       <h5 className="card-title">{car.name}</h5>
                       <p className="card-text">{car.description}</p>
+                      <h5 className="card-price">{car.priceRange}</h5>
                     </div>
                   </div>
                 </div>
