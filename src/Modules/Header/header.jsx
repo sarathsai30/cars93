@@ -19,14 +19,14 @@ const Header = () => {
             style={{ height: '70px', width: '70px', borderRadius: '50%' }}
           />
         </a>
-        <div className="quick-search ms-auto">
+        {/* <div className="quick-search ms-auto">
           <input
             type="text"
             className="form-control"
             placeholder="Quick Search..."
             style={{ maxWidth: "300px" }}
           />
-        </div>
+        </div> */}
       </div>
       <NavBar />
     </header>

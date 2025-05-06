@@ -14,9 +14,9 @@ function App() {
         <Header />
         <Promo />
         <FeaturedCars />
-        <TopSellingCars />
+        {/* <TopSellingCars /> */}
         <main className="flex-grow-1">
-          <Body />
+          {/* <Body /> */}
         </main>
         <AboutUs />
         <Footer />

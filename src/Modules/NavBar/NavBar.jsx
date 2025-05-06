@@ -33,16 +33,17 @@ const NavBar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link ms-4" href="/new-cars">
+              <a className="nav-link ms-4" href="/new-cars"
+               onClick={(e) => handleScrollToSection(e, "featured-cars")}>
                 New Cars
               </a>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a className="nav-link ms-4" href="/reviews">
                 Reviews
               </a>
-            </li>
-            <li className="nav-item">
+            </li> */}
+            {/* <li className="nav-item">
               <a
                 className="nav-link ms-4"
                 href="#videos"
@@ -50,7 +51,7 @@ const NavBar = () => {
               >
                 Videos
               </a>
-            </li>
+            </li> */}
             <li className="nav-item">
               <a
                 className="nav-link ms-4"

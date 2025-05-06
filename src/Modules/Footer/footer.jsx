@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="row">
           <div className="col-md-6">
             <h5>Connect with Us</h5>
-            <p>&copy; 2025 My Website. All rights reserved.</p>
+            <p>&copy; 2025 93Cars. All rights reserved.</p>
           </div>
           <div className="col-md-6 text-md-end">
             <h5>Follow Us</h5>

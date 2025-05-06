@@ -6,7 +6,7 @@ import "./Promo.css"; // Import the CSS file for styling
 const Promo = () => {
   return (
     <div className="promo-container">
-      <Search />
+      {/* <Search /> */}
     </div>
   );
 };
