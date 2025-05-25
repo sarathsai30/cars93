@@ -11,7 +11,25 @@
       "launchYear": 2023,
       "category": "trending",
       "carType": "Hatchback",
-      "priceRange": "₹6.49 - ₹9.64 Lakh*"
+      "priceRange": "₹6.49 - ₹9.64 Lakh*",
+      "varient": [
+        {
+          "name": "VXI",
+          "price": "₹6.49 Lakh*"
+        },
+        {
+          "name": "ZXI",
+          "price": "₹7.44 Lakh*"
+        },
+        {
+          "name": "ZXI+",
+          "price": "₹8.41 Lakh*"
+        },
+        {
+          "name": "ZDI",
+          "price": "₹9.64 Lakh*"
+        }
+      ]
     },
     {
       "id": "2",
@@ -23,7 +41,25 @@
       "launchYear": 2024,
       "category": "trending",
       "carType": "SUV",
-      "priceRange": "₹11.11 - ₹20.50 Lakh*"
+      "priceRange": "₹11.11 - ₹20.50 Lakh*",
+      "varient": [
+        {
+          "name": "E",
+          "price": "₹11.11 Lakh*"
+        },
+        {
+          "name": "EX",
+          "price": "₹12.50 Lakh*"
+        },
+        {
+          "name": "SX",
+          "price": "₹14.50 Lakh*"
+        },
+        {
+          "name": "SX(O)",
+          "price": "₹20.50 Lakh*"
+        }
+      ]
     },
     {
       "id": "3",
@@ -36,7 +72,25 @@
       "launchYear": 2022,
       "category": "trending",
       "carType": "SUV",
-      "priceRange": "₹6 - ₹10.32 Lakh*"
+      "priceRange": "₹6 - ₹10.32 Lakh*",
+      "varient": [
+        {
+          "name": "Pure",
+          "price": "₹6 Lakh*"
+        },
+        {
+          "name": "Adventure",
+          "price": "₹7.50 Lakh*"
+        },
+        {
+          "name": "Creative",
+          "price": "₹8.50 Lakh*"
+        },
+        {
+          "name": "Fearless",
+          "price": "₹10.32 Lakh*"
+        }
+      ]
     },
     {
       "id": "4",
@@ -49,7 +103,21 @@
       "launchYear": 2023,
       "category": "trending",
       "carType": "SUV",
-      "priceRange": "₹12.99 - ₹23.09 Lakh**"
+      "priceRange": "₹12.99 - ₹23.09 Lakh**",
+      "varient": [
+        {
+          "name": "AX (O) 4WD",
+          "price": "₹12.99 Lakh*"
+        },
+        {
+          "name": "LX 4WD",
+          "price": "₹15.50 Lakh*"
+        },
+        {
+          "name": "LX Diesel AT 4WD",
+          "price": "₹23.09 Lakh*"
+        }
+      ]
     },
     {
       "id": "5",
@@ -62,7 +130,25 @@
       "launchYear": 2023,
       "category": "trending",
       "carType": "SUV",
-      "priceRange": "₹11.19 - ₹20.51 Lakh*"
+      "priceRange": "₹11.19 - ₹20.51 Lakh*",
+      "varient": [
+        {
+          "name": "HTE",
+          "price": "₹11.19 Lakh*"
+        },
+        {
+          "name": "HTK+",
+          "price": "₹13.50 Lakh*"
+        },
+        {
+          "name": "GTX+",
+          "price": "₹18.50 Lakh*"
+        },
+        {
+          "name": "GTX+ Diesel AT",
+          "price": "₹20.51 Lakh*"
+        }
+      ]
     },
     {
       "id": "6",
@@ -75,7 +161,21 @@
       "launchYear": 2022,
       "category": "popular",
       "carType": "SUV",
-      "priceRange": "₹35.37 - ₹51.94 Lakh*"
+      "priceRange": "₹35.37 - ₹51.94 Lakh*",
+      "varient": [
+        {
+          "name": "2.7 4x2 MT",
+          "price": "₹35.37 Lakh*"
+        },
+        {
+          "name": "2.8 4x2 AT",
+          "price": "₹40.50 Lakh*"
+        },
+        {
+          "name": "2.8 4x4 AT",
+          "price": "₹51.94 Lakh*"
+        }
+      ]
     },
     {
       "id": "7",
@@ -88,20 +188,52 @@
       "launchYear": 2023,
       "category": "trending",
       "carType": "Sedan",
-      "priceRange": "₹11.07 - ₹17.55 Lakh*"
+      "priceRange": "₹11.07 - ₹17.55 Lakh*",
+      "varient": [
+        {
+          "name": "EX",
+          "price": "₹11.07 Lakh*"
+        },
+        {
+          "name": "SX",
+          "price": "₹14.50 Lakh*"
+        },
+        {
+          "name": "SX(O)",
+          "price": "₹17.55 Lakh*"
+        }
+      ]
     },
     {
       "id": "8",
       "name": "Tata Harrier",
       "description": "A bold SUV built on Land Rover’s D8 platform, featuring a diesel engine and advanced safety features.",
-      "image": "harrier.jpg",
+      "image": "Tata/tata_harrier.jpg",
       "fuelType": "Diesel",
       "engineSpecifications": "2.0L Kryotec Diesel",
       "features": ["Panoramic sunroof", "ADAS", "Terrain response system"],
       "launchYear": 2023,
       "category": "popular",
       "carType": "SUV",
-      "priceRange": "₹15.49 - ₹26.19 Lakh*"
+      "priceRange": "₹15.49 - ₹26.19 Lakh*",
+      "varient": [
+        {
+          "name": "XE",
+          "price": "₹15.49 Lakh*"
+        },
+        {
+          "name": "XZ+",
+          "price": "₹18.50 Lakh*"
+        },
+        {
+          "name": "XZA+",
+          "price": "₹20.50 Lakh*"
+        },
+        {
+          "name": "XZ+ (O)",
+          "price": "₹26.19 Lakh*"
+        }
+      ]
     },
     {
       "id": "9",
@@ -114,7 +246,25 @@
       "launchYear": 2022,
       "category": "trending",
       "carType": "Hatchback",
-      "priceRange": "₹6.70 - ₹9.92 Lakh*"
+      "priceRange": "₹6.70 - ₹9.92 Lakh*",
+      "varient": [
+        {
+          "name": "Sigma",
+          "price": "₹6.70 Lakh*"
+        },
+        {
+          "name": "Delta",
+          "price": "₹8.50 Lakh*"
+        },
+        {
+          "name": "Zeta",
+          "price": "₹9.00 Lakh*"
+        },
+        {
+          "name": "Alpha",
+          "price": "₹9.92 Lakh*"
+        }
+      ]
     },
     {
       "id": "10",
@@ -127,7 +277,25 @@
       "launchYear": 2023,
       "category": "popular",
       "carType": "SUV",
-      "priceRange": "₹6.50 - ₹11.25 Lakh*"
+      "priceRange": "₹6.50 - ₹11.25 Lakh*",
+      "varient": [
+        {
+          "name": "RXE",
+          "price": "₹6.50 Lakh*"
+        },
+        {
+          "name": "RXL",
+          "price": "₹8.50 Lakh*"
+        },
+        {
+          "name": "RXT",
+          "price": "₹9.00 Lakh*"
+        },
+        {
+          "name": "RXZ",
+          "price": "₹11.25 Lakh*"
+        }
+      ]
     },
     {
       "id": "11",
@@ -140,7 +308,25 @@
       "launchYear": 2023,
       "category": "popular",
       "carType": "SUV",
-      "priceRange": "₹8 - ₹15.60 Lakh*"
+      "priceRange": "₹8 - ₹15.60 Lakh*",
+      "varient": [
+        {
+          "name": "Smart",
+          "price": "₹8 Lakh*"
+        },
+        {
+          "name": "Fearless",
+          "price": "₹10.50 Lakh*"
+        },
+        {
+          "name": "Fearless+",
+          "price": "₹12.50 Lakh*"
+        },
+        {
+          "name": "Creative",
+          "price": "₹15.60 Lakh*"
+        }
+      ]
     },
     {
       "id": "12",
@@ -153,7 +339,25 @@
       "launchYear": 2023,
       "category": "popular",
       "carType": "SUV",
-      "priceRange": "₹8.69 - ₹14.14 Lakh*"
+      "priceRange": "₹8.69 - ₹14.14 Lakh*",
+      "varient": [
+        {
+          "name": "LXI",
+          "price": "₹8.69 Lakh*"
+        },
+        {
+          "name": "VXI",
+          "price": "₹10.50 Lakh*"
+        },
+        {
+          "name": "ZXI",
+          "price": "₹12.50 Lakh*"
+        },
+        {
+          "name": "ZXI+",
+          "price": "₹14.14 Lakh*"
+        }
+      ]
     },
     {
       "id": "13",
@@ -166,7 +370,25 @@
       "launchYear": 2023,
       "category": "popular",
       "carType": "Hatchback",
-      "priceRange": "₹7.04 - ₹11.25 Lakh*"
+      "priceRange": "₹7.04 - ₹11.25 Lakh*",
+      "varient": [
+        {
+          "name": "Magna",
+          "price": "₹7.04 Lakh*"
+        },
+        {
+          "name": "Sportz",
+          "price": "₹9.50 Lakh*"
+        },
+        {
+          "name": "Asta",
+          "price": "₹10.50 Lakh*"
+        },
+        {
+          "name": "Asta (O)",
+          "price": "₹11.25 Lakh*"
+        }
+      ]
     },
     {
       "id": "14",
@@ -179,7 +401,25 @@
       "launchYear": 2022,
       "category": "popular",
       "carType": "MUV",
-      "priceRange": "₹10.60 - ₹19.70 Lakh*" 
+      "priceRange": "₹10.60 - ₹19.70 Lakh*",
+      "varient": [
+        {
+          "name": "Premium",
+          "price": "₹10.60 Lakh*"
+        },
+        {
+          "name": "Prestige",
+          "price": "₹13.50 Lakh*"
+        },
+        {
+          "name": "Luxury",
+          "price": "₹16.50 Lakh*"
+        },
+        {
+          "name": "Luxury (O)",
+          "price": "₹19.70 Lakh*"
+        }
+      ]
     },
     {
       "id": "15",
@@ -192,7 +432,25 @@
       "launchYear": 2023,
       "category": "popular",
       "carType": "SUV",
-      "priceRange": "₹13.99 - ₹25.74 Lakh**"
+      "priceRange": "₹13.99 - ₹25.74 Lakh**",
+      "varient": [
+        {
+          "name": "AX3",
+          "price": "₹13.99 Lakh*"
+        },
+        {
+          "name": "AX5",
+          "price": "₹16.50 Lakh*"
+        },
+        {
+          "name": "AX7",
+          "price": "₹20.50 Lakh*"
+        },
+        {
+          "name": "AX7 (O)",
+          "price": "₹25.74 Lakh*"
+        }
+      ]
     },
     {
       "id": "16",
@@ -205,7 +463,21 @@
       "launchYear": 2023,
       "category": "popular",
       "carType": "Sedan",
-      "priceRange": "₹12.28 - ₹16.55 Lakh*"
+      "priceRange": "₹12.28 - ₹16.55 Lakh*",
+      "varient": [
+        {
+          "name": "SV",
+          "price": "₹12.28 Lakh*"
+        },
+        {
+          "name": "VX",
+          "price": "₹14.50 Lakh*"
+        },
+        {
+          "name": "ZX",
+          "price": "₹16.55 Lakh*"
+        }
+      ]
     },
     {
       "id": "17",
@@ -218,7 +490,21 @@
       "launchYear": 2022,
       "category": "popular",
       "carType": "MUV",
-      "priceRange": "₹19.99 - ₹26.82 Lakh*"
+      "priceRange": "₹19.99 - ₹26.82 Lakh*",
+      "varient": [
+        {
+          "name": "GX",
+          "price": "₹19.99 Lakh*"
+        },
+        {
+          "name": "VX",
+          "price": "₹22.50 Lakh*"
+        },
+        {
+          "name": "ZX",
+          "price": "₹26.82 Lakh*"
+        }
+      ]
     },
     {
       "id": "18",
@@ -231,7 +517,25 @@
       "launchYear": 2023,
       "category": "popular",
       "carType": "SUV",
-      "priceRange": "₹14.73 - ₹22.43 Lakh*"
+      "priceRange": "₹14.73 - ₹22.43 Lakh*",
+      "varient": [
+        {
+          "name": "Style",
+          "price": "₹14.73 Lakh*"
+        },
+        {
+          "name": "Super",
+          "price": "₹16.50 Lakh*"
+        },
+        {
+          "name": "Smart",
+          "price": "₹18.50 Lakh*"
+        },
+        {
+          "name": "Sharp",
+          "price": "₹22.43 Lakh*"
+        }
+      ]
     },
     {
       "id": "19",
@@ -244,7 +548,21 @@
       "launchYear": 2023,
       "category": "trending",
       "carType": "Sedan",
-      "priceRange": "₹11.56 - ₹19.40 Lakh*"
+      "priceRange": "₹11.56 - ₹19.40 Lakh*",
+      "varient": [
+        {
+          "name": "Base",
+          "price": "₹11.56 Lakh*"
+        },
+        {
+          "name": "Highline",
+          "price": "₹14.50 Lakh*"
+        },
+        {
+          "name": "Topline",
+          "price": "₹19.40 Lakh*"
+        }
+      ]
     },
     {
       "id": "20",
@@ -257,7 +575,25 @@
       "launchYear": 2023,
       "category": "popular",
       "carType": "Sedan",
-      "priceRange": "₹10.34 - ₹18.24 Lakh*"
+      "priceRange": "₹10.34 - ₹18.24 Lakh*",
+      "varient": [
+        {
+          "name": "Active",
+          "price": "₹10.34 Lakh*"
+        },
+        {
+          "name": "Ambition",
+          "price": "₹13.50 Lakh*"
+        },
+        {
+          "name": "Style",
+          "price": "₹16.50 Lakh*"
+        },
+        {
+          "name": "Sportline",
+          "price": "₹18.24 Lakh*"
+        }
+      ]
     },
     {
       "id": "21",
@@ -315,7 +651,7 @@
       "id": "25",
       "name": "Toyota Urban SUV (based on Suzuki eVX)",
       "description": "Toyota’s compact EV built on Suzuki’s eVX platform, tailored for Indian urban roads.",
-      "image": "urban_ev.jpg",
+      "image": "Toyota/toyota_urban_cruiser.jpg",
       "fuelType": "Electric",
       "engineSpecifications": "60 kWh battery, 550 km range (Expected)",
       "features": ["Digital Touch Controls", "Toyota Safety Sense", "360-Degree Camera"],
@@ -335,7 +671,25 @@
       "launchYear": 2023,
       "category": "trending",
       "carType": "SUV",
-      "priceRange": "₹7.54 - ₹13.04 Lakh*"
+      "priceRange": "₹7.54 - ₹13.04 Lakh*",
+      "varient": [
+        {
+          "name": "Sigma",
+          "price": "₹7.54 Lakh*"
+        },
+        {
+          "name": "Delta",
+          "price": "₹9.50 Lakh*"
+        },
+        {
+          "name": "Zeta",
+          "price": "₹10.50 Lakh*"
+        },
+        {
+          "name": "Alpha",
+          "price": "₹13.04 Lakh*"
+        }
+      ]
     },
     {
       "id": "27",
@@ -348,7 +702,17 @@
       "launchYear": 2022,
       "category": "trending",
       "carType": "Pickup Truck",
-      "priceRange": "₹30.40 - ₹37.90 Lakh*"
+      "priceRange": "₹30.40 - ₹37.90 Lakh*",
+      "varient": [
+        {
+          "name": "Standard",
+          "price": "₹30.40 Lakh*"
+        },
+        {
+          "name": "High",
+          "price": "₹37.90 Lakh*"
+        }
+      ]
     },
     {
       "id": "28",
@@ -361,7 +725,25 @@
       "launchYear": 2024,
       "category": "trending",
       "carType": "SUV",
-      "priceRange": "₹7.74 - ₹13.04 Lakh*"
+      "priceRange": "₹7.74 - ₹13.04 Lakh*",
+      "varient": [
+        {
+          "name": "E",
+          "price": "₹7.74 Lakh*"
+        },
+        {
+          "name": "S Plus AMT",
+          "price": "₹9.58 Lakh*"
+        },
+        {
+          "name": "G Turbo",
+          "price": "₹10.56 Lakh*"
+        },
+        {
+          "name": "V Turbo AT Dual Tone",
+          "price": "₹13.04 Lakh*"
+        }
+      ]
     },
     {
       "id": "29",
@@ -374,7 +756,25 @@
       "launchYear": 2025,
       "category": "trending",
       "carType": "SEdan",
-      "priceRange": "₹6.84 - ₹10.19 Lakh*"
+      "priceRange": "₹6.84 - ₹10.19 Lakh*",
+      "varient": [
+        {
+          "name": "LXI",
+          "price": "₹6.84 Lakh*"
+        },
+        {
+          "name": "VXI",
+          "price": "₹8.50 Lakh*"
+        },
+        {
+          "name": "ZXI",
+          "price": "₹9.50 Lakh*"
+        },
+        {
+          "name": "ZXI+",
+          "price": "₹10.19 Lakh*"
+        }
+      ]
     },
     {
       "id": "30",
@@ -387,7 +787,21 @@
       "launchYear": 2025,
       "category": "trending",
       "carType": "SUV",
-      "priceRange": "₹9.50 - ₹17.80 Lakh*"
+      "priceRange": "₹9.50 - ₹17.80 Lakh*",
+      "varient": [
+        {
+          "name": "HTK Turbo",
+          "price": "₹9.50 Lakh*"
+        },
+        {
+          "name": "HTK PLUS TURBO DCT",
+          "price": "₹12.50 Lakh*"
+        },
+        {
+          "name": "HTX PLUS OPT DIESEL AT",
+          "price": "₹17.80 Lakh*"
+        }
+      ]
     },
     {
       "id": "31",
@@ -400,7 +814,21 @@
       "launchYear": 2025,
       "category": "popular",
       "carType": "SUV",
-      "priceRange": "₹11.80 - ₹19.83 Lakh*"
+      "priceRange": "₹11.80 - ₹19.83 Lakh*",
+      "varient": [
+        {
+          "name": "1.0 COMFORT LINE",
+          "price": "₹11.80 Lakh*"
+        },
+        {
+          "name": "1.0 Highline PLUS",
+          "price": "₹14.50 Lakh*"
+        },
+        {
+          "name": "1.5 GT PLUS SPORTS DSG",
+          "price": "₹19.83 Lakh*"
+        }
+      ]
     },
     {
       "id": "32",
@@ -439,7 +867,21 @@
       "launchYear": 2023,
       "category": "trending",
       "carType": "MPV",
-      "priceRange": "₹10.29 - ₹13.68 Lakh*"
+      "priceRange": "₹10.29 - ₹13.68 Lakh*",
+      "varient": [
+        {
+          "name": "RUMION S",
+          "price": "₹10.54 Lakh*"
+        },
+        {
+          "name": "RUMION V",
+          "price": "₹12.43 Lakh*"
+        },
+        {
+          "name": "RUMION V AT",
+          "price": "₹13.83 Lakh*"
+        }
+      ]
     },
     {
       "id": "35",
@@ -452,7 +894,21 @@
       "launchYear": 2023,
       "category": "trending",
       "carType": "MPV",
-      "priceRange": "₹24.79 - ₹28.42 Lakh*"
+      "priceRange": "₹24.79 - ₹28.42 Lakh*",
+      "varient": [
+        {
+          "name": "Zeta PLUS 7Str",
+          "price": "₹25.51 Lakh*"
+        },
+        {
+          "name": "zeta plus 8str",
+          "price": "₹25.56 Lakh*"
+        },
+        {
+          "name": "Alpha+ plus 7str",
+          "price": "₹29.22 Lakh*"
+        }
+      ]
     }
 
   ]
