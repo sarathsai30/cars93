@@ -25,7 +25,7 @@ const Search = () => {
   }
 
   return (
-    <div className="search-form p-3 bg-light border rounded" style={{ width: '300px', margin: '0 auto' }}>
+    <div className="search-form p-3 bg-light border rounded" style={{ width: '300px', marginLeft:"40px", marginTop:"20px" }}>
       <form>
         <div className="mb-3">
           <FormControl fullWidth>
